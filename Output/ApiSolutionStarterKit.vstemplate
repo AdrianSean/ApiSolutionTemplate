@@ -1,0 +1,43 @@
+<VSTemplate Version="2.0.0" Type="ProjectGroup"
+    xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+    <TemplateData>
+        <Name>OpenBank Api Solution Starter kit</Name>
+        <Description>An example of a multi-project template</Description>
+        <Icon>Icon.ico</Icon>
+        <ProjectType>CSharp</ProjectType>
+    </TemplateData>
+    <TemplateContent>
+        <ProjectCollection>
+            <SolutionFolder Name="0. Documentation">
+            </SolutionFolder>
+            <SolutionFolder Name="1. Microservice">
+                <ProjectTemplateLink ProjectName="Application">
+                    Application\MyTemplate.vstemplate
+                </ProjectTemplateLink>  
+                <ProjectTemplateLink ProjectName="Domain">
+                    Domain\MyTemplate.vstemplate
+                </ProjectTemplateLink> 
+                <ProjectTemplateLink ProjectName="Repository">
+                    Repository\MyTemplate.vstemplate
+                </ProjectTemplateLink>
+                <ProjectTemplateLink ProjectName="Web.Api">
+                    Web.Api\MyTemplate.vstemplate
+                </ProjectTemplateLink>
+            </SolutionFolder>
+            <SolutionFolder Name="2. Tests">
+                <ProjectTemplateLink ProjectName="Application.UnitTests">
+                    Application.UnitTests\MyTemplate.vstemplate
+                </ProjectTemplateLink>
+                <ProjectTemplateLink ProjectName="Domain.UnitTests">
+                    Domain.UnitTests\MyTemplate.vstemplate
+                </ProjectTemplateLink>
+                <ProjectTemplateLink ProjectName="Repository.UnitTests">
+                    Repository.UnitTests\MyTemplate.vstemplate
+                </ProjectTemplateLink> 
+                <ProjectTemplateLink ProjectName="Web.Api.UnitTests">
+                    Web.Api.UnitTests\MyTemplate.vstemplate
+                </ProjectTemplateLink>                 	
+            </SolutionFolder>
+        </ProjectCollection>
+    </TemplateContent>
+</VSTemplate>

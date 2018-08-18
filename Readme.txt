@@ -20,9 +20,9 @@ Project frameworks used in this template:
 
 Nuget references are kept intact and downloaded to develoeprs pc when solution is loaded
 
-NB: .NET 4.6 projects have issue with nuget referneces when solution is loaded so using XUnit types instead.
+NB: .NET 4.X projects have issue with nuget referneces when solution is loaded, get 'run nuget restore command'
 
-********************************
-EXPORT LOCATION FOR THE SOLUTION 
-********************************
+************************************************************
+Export location for the zip file (ApiSolutionStarterKit.zip)
+************************************************************
 VS 2017: C:\Users\YourName\OneDrive\Documents\Visual Studio 2017\Templates\ProjectTemplates
