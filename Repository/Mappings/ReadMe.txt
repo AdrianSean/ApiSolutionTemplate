@@ -1,0 +1,1 @@
+﻿If no mappings logic is required then this dir can be removed.

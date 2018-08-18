@@ -1,0 +1,1 @@
+﻿Plain Old CLR Objects (POCOs) reside here.

@@ -1,0 +1,2 @@
+﻿﻿Contains the domain model Plain Old CLR Objects (POCOs); these are used by Entity Framework, Dapper, or other ORM to pull/push data from the database.
+Also contains the data access interfaces and helper clases.  However, nothing in this project is specific to SQL Server.

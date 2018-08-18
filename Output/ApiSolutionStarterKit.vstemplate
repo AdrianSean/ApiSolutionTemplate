@@ -3,7 +3,7 @@
     <TemplateData>
         <Name>OpenBank Api Solution Starter kit</Name>
         <Description>An example of a multi-project template</Description>
-        <Icon>Icon.ico</Icon>
+        <Icon>api.ico</Icon>
         <ProjectType>CSharp</ProjectType>
     </TemplateData>
     <TemplateContent>
@@ -22,6 +22,12 @@
                 </ProjectTemplateLink>
                 <ProjectTemplateLink ProjectName="Web.Api">
                     Web.Api\MyTemplate.vstemplate
+                </ProjectTemplateLink>
+                <ProjectTemplateLink ProjectName="Common">
+                    Common\MyTemplate.vstemplate
+                </ProjectTemplateLink>
+                 <ProjectTemplateLink ProjectName="Web.Api.Models">
+                    Web.Api.Models\MyTemplate.vstemplate
                 </ProjectTemplateLink>
             </SolutionFolder>
             <SolutionFolder Name="2. Tests">
