@@ -6,6 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. Documentation", "0. Documentation", "{9C3BDC88-255F-49A3-BB1D-1369093EA622}"
 	ProjectSection(SolutionItems) = preProject
 		Readme.txt = Readme.txt
+		Screenshots.docx = Screenshots.docx
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Microservice", "1. Microservice", "{22F34A04-68EA-4ED9-A6EF-C067716E88D4}"
@@ -20,13 +21,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Re
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web.Api", "Web.Api\Web.Api.csproj", "{02F1CB2B-4640-4D84-9424-228F9E9293AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.UnitTests", "Application.UnitTests\Application.UnitTests.csproj", "{8F5F403E-4000-4361-BED5-5D7DE43394C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.UnitTests", "Application.UnitTests\Application.UnitTests.csproj", "{8F5F403E-4000-4361-BED5-5D7DE43394C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.UnitTests", "Domain.UnitTests\Domain.UnitTests.csproj", "{80BB981D-CD79-42C8-BA16-C2D9EB81A94A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.UnitTests", "Domain.UnitTests\Domain.UnitTests.csproj", "{80BB981D-CD79-42C8-BA16-C2D9EB81A94A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.UnitTests", "Repository.UnitTests\Repository.UnitTests.csproj", "{17338CC7-C719-4E2C-A452-C977561B800D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository.UnitTests", "Repository.UnitTests\Repository.UnitTests.csproj", "{17338CC7-C719-4E2C-A452-C977561B800D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.Api.UnitTests", "Web.Api.UnitTests\Web.Api.UnitTests.csproj", "{A719453E-F2EC-418F-864F-5F1D094FAE9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web.Api.UnitTests", "Web.Api.UnitTests\Web.Api.UnitTests.csproj", "{A719453E-F2EC-418F-864F-5F1D094FAE9E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
