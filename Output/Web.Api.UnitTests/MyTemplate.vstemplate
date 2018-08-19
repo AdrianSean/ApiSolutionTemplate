@@ -15,6 +15,8 @@
     <Icon>__TemplateIcon.ico</Icon>
   </TemplateData>
   <TemplateContent>
-    <Project TargetFileName="Web.Api.UnitTests.csproj" File="Web.Api.UnitTests.csproj" ReplaceParameters="true" />
+    <Project TargetFileName="Web.Api.UnitTests.csproj" File="Web.Api.UnitTests.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="codecoverage_build.ps1">codecoverage_build.ps1</ProjectItem>
+    </Project>
   </TemplateContent>
 </VSTemplate>
