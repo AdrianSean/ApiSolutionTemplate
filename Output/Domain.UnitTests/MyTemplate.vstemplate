@@ -16,7 +16,7 @@
   </TemplateData>
   <TemplateContent>
     <Project TargetFileName="Domain.UnitTests.csproj" File="Domain.UnitTests.csproj" ReplaceParameters="true">
-      <ProjectItem ReplaceParameters="false" TargetFileName="codecoverage_build.ps1">codecoverage_build.ps1</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="run_codecoverage.ps1">run_codecoverage.ps1</ProjectItem>
     </Project>
   </TemplateContent>
 </VSTemplate>
