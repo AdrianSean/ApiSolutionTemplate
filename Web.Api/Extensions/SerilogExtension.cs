@@ -35,7 +35,7 @@ namespace Web.Api
                 new LoggerConfiguration()
                     .MinimumLevel.Verbose()
                     .WriteTo.Console()
-                    .WriteTo.MSSqlServer(sqlConnectionString, "Logs"));
+                    .WriteTo.MSSqlServer(sqlConnectionString, "ApiEventLog"));
         }
     }
 }

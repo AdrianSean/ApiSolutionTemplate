@@ -35,7 +35,7 @@ namespace $safeprojectname$
                 new LoggerConfiguration()
                     .MinimumLevel.Verbose()
                     .WriteTo.Console()
-                    .WriteTo.MSSqlServer(sqlConnectionString, "Logs"));
+                    .WriteTo.MSSqlServer(sqlConnectionString, "ApiEventLog"));
         }
     }
 }
